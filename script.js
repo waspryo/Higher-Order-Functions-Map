@@ -53,3 +53,17 @@ const getName = people.map(name => {
     return name.first_name + '  ' + name.last_name
 })
 console.log(getName)
+
+const animals = [{
+    name: 'cat',
+    size: 'small'
+}, {
+    name: 'dog',
+    size: 'regular'
+},{
+    name: 'cat',
+    size: 'small'
+}]
+
+const animalName = animals.map(animal => animal.name)
+console.log(animalName)
