@@ -67,3 +67,10 @@ const animals = [{
 
 const animalName = animals.map(animal => animal.name)
 console.log(animalName)
+
+const theNumbers = [4, 8, 15, 16, 23, 42]
+
+const getValueIndex = theNumbers.map((value, index) =>{
+    return {value ,index}
+})
+console.log(getValueIndex)
