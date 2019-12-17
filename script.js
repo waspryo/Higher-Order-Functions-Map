@@ -38,3 +38,18 @@ const getWeekdays = days.map(weeekday => {
     return weeekday.substring(0, 3)
 })
 console.log(getWeekdays)
+
+const people = [{
+    first_name: 'MJ',
+    last_name: 'MJ',
+}, {
+    first_name: 'jane',
+    last_name: 'John',
+},{
+    first_name: 'koil',
+    last_name: 'Liddell',
+}]
+const getName = people.map(name => {
+    return name.first_name + '  ' + name.last_name
+})
+console.log(getName)
